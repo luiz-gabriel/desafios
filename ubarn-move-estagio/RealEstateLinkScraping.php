@@ -36,10 +36,10 @@
                 $ScrapingProperties = new ScrapingProperties($link);
                 array_push($this->data, $ScrapingProperties->getDataToArray());
             }
-            // if(!empty($this->getNextPageLink())){
-            //     $this->nextPage($this->getNextPageLink());
-            //     $this->scrapping();
-            // }
+            if(!empty($this->getNextPageLink())){
+                $this->nextPage($this->getNextPageLink());
+                $this->scrapping();
+            }
             
         }
         //Captura todos os links de uma página
