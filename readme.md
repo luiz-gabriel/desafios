@@ -1,3 +1,3 @@
 # Desafios
 
-Repositório criado para resolver desafios de vagas de emprego.
+Esse repositório foi criado para armazenar desafios resolvidos durante as etapas de teste para vagas de emprego.
