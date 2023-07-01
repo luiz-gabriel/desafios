@@ -7,14 +7,21 @@ O arquivo RealEstateLinkScraping.php tem a função de obter link dos imóveis d
 Tasks
      
 
- - [x] Titulo: 
- - [x] Valor de Avaliação:
- - [x] Data da Primeira Praça:
- - [x] Valor da Segunda Praça:
- - [x] Endereço
- - [x] Link de um Documento:
- - [x] List item
- - [x] Link de uma Imagem
+     Titulo ✅
+     
+     Valor de Avaliação ✅
+     
+     Data da Primeira Praça ✅
+     
+     Valor da Segunda Praça ✅
+     
+     Endereço ✅
+     
+     Link de um Documento ✅
+     
+     List item ✅
+     
+     Link de uma Imagem ✅
 
 O caso consiste em capturar informações dos lotes do site: https://agostinholeiloes.com.br/
 
