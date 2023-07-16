@@ -31,8 +31,24 @@
             $this->state = $this->grabState();
             $this->documentLinks = $this->grabDocumentLinks();
             $this->imagesLinks = $this->grabImagesLinks();
+
+            //Apagando conteudo que já não é mais necessário para evitar desperdicio de memoria
+            $this->clearDomXpath();
+            $this->clearDomDocument();
+            $this->clearContentPage();
         }
 
+        private function clearDomDocument(){
+            unset($this->domDocument);
+        }
+
+        private function clearDomXpath(){
+            unset($this->domXPath);
+        }
+
+        private function clearContentPage(){
+            unset($this->contentPage);
+        }
         private function initializeDomDocumentClassAndLoadHtml(){
             $this->domDocument = new DOMDocument();
             $this->loadHTML();
