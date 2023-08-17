@@ -11,7 +11,7 @@ Esse repositório foi criado para armazenar desafios resolvidos durante as etapa
 		</tr>
 		<tr>
 			<td style="text-align:center">Urban Move</td>
-			<td style="text-align:center"><a href="https://github.com/luiz-gabriel/desafios/tree/main/ubarn-move-estagio">Resolu&ccedil;&atilde;o</a></td>
+			<td style="text-align:center"><a href="https://github.com/luiz-gabriel/desafios/tree/main/urban-move-estagio">Resolu&ccedil;&atilde;o</a></td>
 			<td style="text-align:center">Scraping de Dados usando php com a biblioteca DOMXPath</td>
 		</tr>
 		<tr>
